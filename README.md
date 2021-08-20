@@ -1,9 +1,15 @@
 # Simple Exercise Tracker
 
+![Screen Shot 2021-08-19 at 10 36 22 PM](https://user-images.githubusercontent.com/49771001/130170581-f442dfd4-ecf9-476a-bdad-fac42ec6411c.png)
+
+![Screen Shot 2021-08-19 at 10 36 37 PM](https://user-images.githubusercontent.com/49771001/130170592-d825deeb-c31c-4a67-82a2-2d65add59dec.png)
+
+![Screen Shot 2021-08-19 at 10 36 47 PM](https://user-images.githubusercontent.com/49771001/130170598-1ed7ed37-86ae-4880-b02e-12f87e464192.png)
 
 ## Objective
 - Learn to use MERN stack to develop a full stack app using MongoDB, Express, Node, and React
-- Learn to use axios libbrary to connect frontend and backend together
+- Learn to use axios library to connect frontend and backend together
+- Learn to deploy full-stack application on Heroku
 
 ## References
 - https://medium.com/@beaucarnes/learn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1
