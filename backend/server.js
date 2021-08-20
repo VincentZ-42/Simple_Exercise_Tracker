@@ -35,7 +35,7 @@ app.use(express.static(path.resolve(__dirname, "../build")));
 // Ensures routes definied with React Router are working
 // handles request by redirecting to index.html
 app.get("*", function (req, res) {
-  res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
+  res.sendFile(path.resolve(__dirname, "../build", "index.html"));
 })
 
 app.listen(port, () => {
