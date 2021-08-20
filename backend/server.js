@@ -25,6 +25,19 @@ const usersRouter = require('./routes/users');
 app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
 
+// For deploying on Heroku
+const path = require("path");
+
+// Import build folder to the server
+app.use(express.static(path.resolve(__dirname, "../build")));
+
+
+// Ensures routes definied with React Router are working
+// handles request by redirecting to index.html
+app.get("*", function (req, res) {
+  res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
+})
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 })
