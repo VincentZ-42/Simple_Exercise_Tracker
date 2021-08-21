@@ -23,7 +23,7 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "server": "nodemon server.js --prefix backend",
     "develop": "concurrently --kill-others-on-fail \"npm run server --prefix backend\" \"npm run start\"",
-    "start": "concurrently --kill-others-on-fail \"npm run server --prefix backend\" \"npm run start\""
+    "start": "concurrently --kill-others-on-fail \"npm run server --prefix backend\" \"react-scripts start\""
   },
   "eslintConfig": {
     "extends": [
