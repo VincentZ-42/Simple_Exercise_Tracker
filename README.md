@@ -1,4 +1,4 @@
-# Simple Exercise Tracker
+# Simple Exercise Tracker: [Demo](https://exer-list-pract.herokuapp.com/)
 - Full-Stack application that allows users to create a list of exercises assocaited with specific users
 
 ### View of Exercise List
@@ -26,3 +26,4 @@
 - https://www.youtube.com/watch?v=7CqJlxBYj-M
 - https://github.com/beaucarnes/mern-exercise-tracker-mongodb
 - https://dev.to/hawacodes/deploying-a-mern-app-with-heroku-3km7
+- https://www.npmjs.com/package/axios
