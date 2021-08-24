@@ -24,7 +24,8 @@ export default class CreateExercise extends Component {
   }
 
   componentDidMount() {
-    axios.get('/users')
+    const port = process.env.PORT;
+    axios.get(`${port}/users`)
       .then(response => {
         if (response.data.length > 0) {
           this.setState({
