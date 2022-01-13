@@ -32,6 +32,7 @@ export default class CreateExercise extends Component {
             users: response.data.map(user => user.username),
             username: response.data[0].username
           })
+          console.log('successful pull');
         }
       })
   }
