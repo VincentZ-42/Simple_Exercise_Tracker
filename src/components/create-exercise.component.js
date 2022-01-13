@@ -25,16 +25,16 @@ export default class CreateExercise extends Component {
 
   componentDidMount() {
     const port = process.env.PORT;
-    axios.get(`${port}/users`)
+    axios.get(`/users/`)
       .then(response => {
         if (response.data.length > 0) {
-          console.log(response.data);
           this.setState({
             users: response.data.map(user => user.username),
             username: response.data[0].username
           })
         }
       })
+      .catch((err) => console.log(err));
   }
 
   onChangeUsername(e) {
