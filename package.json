@@ -18,7 +18,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "build": "npm run build",
+    "build": "react-scripts build",
     "install-client": "npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
     "server": "nodemon server.js --prefix backend",
