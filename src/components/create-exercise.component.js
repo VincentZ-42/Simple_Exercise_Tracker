@@ -28,11 +28,11 @@ export default class CreateExercise extends Component {
     axios.get(`${port}/users`)
       .then(response => {
         if (response.data.length > 0) {
+          console.log(response.data);
           this.setState({
             users: response.data.map(user => user.username),
             username: response.data[0].username
           })
-          console.log('successful pull');
         }
       })
   }
