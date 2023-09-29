@@ -14,7 +14,6 @@
 - Learn to use MERN stack to develop a full stack app using MongoDB, Express, React, and Node (MERN)
 - Create routes to handle CRUD HTTP requests from backend
 - Learn to use axios library to connect frontend and backend logic
-- Learn to deploy full-stack application on Heroku
 
 ## Tools Used
 - Visual Studio Code
