@@ -1,4 +1,4 @@
-# Simple Exercise Tracker: [Demo](https://exer-list-pract.herokuapp.com/)
+# Simple Exercise Tracker
 - Full-Stack application that allows users to create a list of exercises assocaited with specific users
 
 ### View of Exercise List
